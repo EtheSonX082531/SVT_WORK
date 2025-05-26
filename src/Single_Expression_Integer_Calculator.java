@@ -3,7 +3,7 @@ import java.util.*;
 public class Single_Expression_Integer_Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome to basic Calc");
+        System.out.println("Welcome to Single Expression Integer Calculator");
         System.out.println("Enter Input (e.g:23+7)");
         StringBuilder str = new StringBuilder(sc.next());
         boolean flag = true;
