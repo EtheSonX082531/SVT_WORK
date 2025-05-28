@@ -1,6 +1,23 @@
 import java.util.*;
 
-public class Single_Expression_Integer_Calculator {
+public class Single_Expression_Integer_Calculator { 
+    
+    public static int addition(int a, int b) {
+        return a + b;
+    }
+
+    public static int subtraction(int a, int b) {
+        return a - b;
+    }
+
+    public static int multiplication(int a, int b) {
+        return a * b;
+    }
+
+    public static int division(int a, int b) {
+        return a / b;
+    }
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to basic Calc");
